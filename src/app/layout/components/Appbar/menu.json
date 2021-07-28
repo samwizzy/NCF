@@ -1,0 +1,41 @@
+[
+	{ "name": "HOME", "href": "/", "current": true },
+	{ 
+		"name": "ABOUT US", 
+		"href": "/", 
+		"current": false,
+		"sublist": [
+			{ "name": "NCF In Brief", "href": "/", "current": false },
+			{ "name": "Vision and Mission", "href": "/", "current": false },
+			{ "name": "Milestones", "href": "/", "current": false },
+			{ "name": "Governing Bodies", "href": "/", "current": false },
+			{ "name": "Contact us", "href": "/", "current": false }
+		]
+	},
+	{ 
+		"name": "OUR WORK", 
+		"href": "/", 
+		"current": false,
+		"sublist": [
+			{ 
+				"name": "Habitat", 
+				"href": "/", 
+				"current": false,
+				"sublist": [
+					{ "name": "Forest-Green Recovery Nigeria", "href": "/", "current": false },
+					{ "name": "Wetland & Freshwater", "href": "/", "current": false },
+					{ "name": "Marine & Coastline", "href": "/", "current": false }
+				]
+			},
+			{ "name": "Species", "href": "/", "current": false },
+			{ "name": "Climate Change", "href": "/", "current": false },
+			{ "name": "Environmental Education", "href": "/", "current": false },
+			{ "name": "Policy & Advocacy", "href": "/", "current": false },
+			{ "name": "Our Community", "href": "/", "current": false }
+		]
+	},
+	{ "name": "LIBRARY", "href": "/", "current": false },
+	{ "name": "GET INVOLVED", "href": "/", "current": false },
+	{ "name": "SUPPORT NATURE", "href": "/", "current": false },
+	{ "name": "BLOG", "href": "/", "current": false }
+]

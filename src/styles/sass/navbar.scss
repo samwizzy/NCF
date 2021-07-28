@@ -1,0 +1,35 @@
+.navbar {
+	background-color: rgba(255, 255, 255, 0.5);;
+}
+
+.navbar-start--centered {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navbar-start--right {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.nested.dropdown {
+	&:hover > .dropdown-menu {
+		display: block;
+	}
+	.dropdown-menu {
+		top: -15px;
+		margin-left: 100%;
+	}
+	.dropdown-trigger {
+		button::after {
+			content: '⦠'
+		}
+		button {
+			padding: 0px 0px;
+			border: 0px;
+			font-size: 14px;
+			font-weight: 400;
+			height: 2em;
+		}
+	}
+}
