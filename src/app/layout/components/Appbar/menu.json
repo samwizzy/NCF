@@ -1,41 +1,92 @@
 [
-	{ "name": "HOME", "href": "/", "current": true },
-	{ 
-		"name": "ABOUT US", 
-		"href": "/", 
-		"current": false,
-		"sublist": [
-			{ "name": "NCF In Brief", "href": "/", "current": false },
-			{ "name": "Vision and Mission", "href": "/", "current": false },
-			{ "name": "Milestones", "href": "/", "current": false },
-			{ "name": "Governing Bodies", "href": "/", "current": false },
-			{ "name": "Contact us", "href": "/", "current": false }
-		]
-	},
-	{ 
-		"name": "OUR WORK", 
-		"href": "/", 
-		"current": false,
-		"sublist": [
-			{ 
-				"name": "Habitat", 
-				"href": "/", 
-				"current": false,
-				"sublist": [
-					{ "name": "Forest-Green Recovery Nigeria", "href": "/", "current": false },
-					{ "name": "Wetland & Freshwater", "href": "/", "current": false },
-					{ "name": "Marine & Coastline", "href": "/", "current": false }
-				]
-			},
-			{ "name": "Species", "href": "/", "current": false },
-			{ "name": "Climate Change", "href": "/", "current": false },
-			{ "name": "Environmental Education", "href": "/", "current": false },
-			{ "name": "Policy & Advocacy", "href": "/", "current": false },
-			{ "name": "Our Community", "href": "/", "current": false }
-		]
-	},
-	{ "name": "LIBRARY", "href": "/", "current": false },
-	{ "name": "GET INVOLVED", "href": "/", "current": false },
-	{ "name": "SUPPORT NATURE", "href": "/", "current": false },
-	{ "name": "BLOG", "href": "/", "current": false }
+  { "name": "HOME", "href": "/", "current": true },
+  {
+    "name": "ABOUT US",
+    "href": "/about-us",
+    "current": false,
+    "sublist": [
+      {
+        "name": "NCF In Brief",
+        "href": "/ncf-in-brief",
+        "current": false
+      },
+      {
+        "name": "Vision and Mission",
+        "href": "/vision-and-mission",
+        "current": false
+      },
+      { "name": "Milestones", "href": "/milestones", "current": false },
+      {
+        "name": "Governing Bodies",
+        "href": "/governing-bodies",
+        "current": false
+      },
+      { "name": "Contact us", "href": "/contact-us", "current": false }
+    ]
+  },
+  {
+    "name": "OUR WORK",
+    "href": "/our-work",
+    "current": false,
+    "sublist": [
+      {
+        "name": "Habitat",
+        "href": "/our-work",
+        "current": false,
+        "sublist": [
+          {
+            "name": "Forest-Green Recovery Nigeria",
+            "href": "/",
+            "current": false
+          },
+          { "name": "Wetland & Freshwater", "href": "/", "current": false },
+          {
+            "name": "Marine & Coastline",
+            "href": "/marine-coastline",
+            "current": false
+          }
+        ]
+      },
+      { "name": "Species", "href": "/species", "current": false },
+      { "name": "Climate Change", "href": "/climate-change", "current": false },
+      {
+        "name": "Environmental Education",
+        "href": "/environmental-education",
+        "current": false
+      },
+      {
+        "name": "Policy & Advocacy",
+        "href": "/policy-advocacy",
+        "current": false
+      },
+      { "name": "Our Community", "href": "/our-community", "current": false }
+    ]
+  },
+  {
+    "name": "LIBRARY",
+    "href": "/library",
+    "current": false,
+    "sublist": [
+      { "name": "E-Library", "href": "/e-library", "current": false },
+      { "name": "News & Updates", "href": "/news-updates", "current": false },
+      {
+        "name": "Other Resources",
+        "href": "/other-resources",
+        "current": false
+      }
+    ]
+  },
+  {
+    "name": "GET INVOLVED",
+    "href": "/get-involved",
+    "current": false,
+    "sublist": [
+      { "name": "Membership", "href": "/membership", "current": false },
+      { "name": "Bird Club", "href": "/bird-club", "current": false },
+      { "name": "Events", "href": "/events", "current": false },
+      { "name": "Volunteer", "href": "/volunteer", "current": false }
+    ]
+  },
+  { "name": "SUPPORT NATURE", "href": "/", "current": false },
+  { "name": "BLOG", "href": "/", "current": false }
 ]

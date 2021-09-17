@@ -1,74 +1,208 @@
 {
-    "projects": [
-        {
-            "avatar": "", 
-            "title": "Akwa Ibom State: Nipa Palm Utilization Project"
-        },
-        {
-            "avatar": "", 
-            "title": "Cross River State: Management of Becheve Nature Reserve, Obudu Cattle Ranch"
-        },
-        {
-            "avatar": "", 
-            "title": "Edo State : Biodiversity Action Plan (BAP) Project"
-        },
-        {
-            "avatar": "", 
-            "title": "Gombe & Jigawa State: Wing Over Wetlands (WOW)"
-        },
-        {
-            "avatar": "", 
-            "title": "Lagos State: Lekki Conservation Centre (LCC)"
-        },
-        {
-            "avatar": "", 
-            "title": "Ogun, Ondo and Osun State: Omo – Oluwa – Shasha Conservation Project"
-        },
-        {
-            "avatar": "", 
-            "title": "Plateau State: A. P. Leventis Ornithological Research Institute (APLORI),"
-        },
-        {
-            "avatar": "", 
-            "title": "Taraba State: Participatory Forest Management Project, Mambilla and Donga sites,"
-        },
-        {
-            "avatar": "", 
-            "title": "Important Bird Area Programme"
-        }
-    ],
-    "projects1": [
-        {
-            "avatar": "", 
-            "title": "Development of the National Conservation Strategy - 1984"
-        },
-        {
-            "avatar": "", 
-            "title": "Enactment of the Endangered Species Decree - 1985"
-        },
-        {
-            "avatar": "", 
-            "title": "Development of the Vision 2010 on the environment – 1997"
-        },
-        {
-            "avatar": "", 
-            "title": "Collaborated with the Federal Department of Forestry on the drafting of Nigeria’s National Forestry Law -2000."
-        },
-        {
-            "avatar": "", 
-            "title": "NCF played a lead role in the establishment of the defunct Federal Environmental Protection Agency (FEPA) now Federal Ministry of Environment."
-        },
-        {
-            "avatar": "", 
-            "title": "Facilitated the publication of National University Commission (NUC) endorsed eleven volumes of textual materials on Environmental Education as environmental curriculum resource for tertiary institutions in Nigeria."
-        },
-        {
-            "avatar": "", 
-            "title": "Played supportive role in the establishment of the Nigerian Environmental Study Action Team (NEST)."
-        },
-        {
-            "avatar": "", 
-            "title": "Established the Niger-Delta Conservation and Sustainable Development (NDCSD) Project to instigate a paradigm shift from oil and gas dependence to realizing the trade value of biodiversity (2002) among others."
-        }
-    ]
+  "projects": [
+    {
+      "avatar": "",
+      "title": "Akwa Ibom State: Nipa Palm Utilization Project"
+    },
+    {
+      "avatar": "",
+      "title": "Cross River State: Management of Becheve Nature Reserve, Obudu Cattle Ranch"
+    },
+    {
+      "avatar": "",
+      "title": "Edo State : Biodiversity Action Plan (BAP) Project"
+    },
+    {
+      "avatar": "",
+      "title": "Gombe & Jigawa State: Wing Over Wetlands (WOW)"
+    },
+    {
+      "avatar": "",
+      "title": "Lagos State: Lekki Conservation Centre (LCC)"
+    },
+    {
+      "avatar": "",
+      "title": "Ogun, Ondo and Osun State: Omo – Oluwa – Shasha Conservation Project"
+    },
+    {
+      "avatar": "",
+      "title": "Plateau State: A. P. Leventis Ornithological Research Institute (APLORI),"
+    },
+    {
+      "avatar": "",
+      "title": "Taraba State: Participatory Forest Management Project, Mambilla and Donga sites,"
+    },
+    {
+      "avatar": "",
+      "title": "Important Bird Area Programme"
+    }
+  ],
+  "projects1": [
+    {
+      "avatar": "",
+      "title": "Development of the National Conservation Strategy - 1984"
+    },
+    {
+      "avatar": "",
+      "title": "Enactment of the Endangered Species Decree - 1985"
+    },
+    {
+      "avatar": "",
+      "title": "Development of the Vision 2010 on the environment – 1997"
+    },
+    {
+      "avatar": "",
+      "title": "Collaborated with the Federal Department of Forestry on the drafting of Nigeria’s National Forestry Law -2000."
+    },
+    {
+      "avatar": "",
+      "title": "NCF played a lead role in the establishment of the defunct Federal Environmental Protection Agency (FEPA) now Federal Ministry of Environment."
+    },
+    {
+      "avatar": "",
+      "title": "Facilitated the publication of National University Commission (NUC) endorsed eleven volumes of textual materials on Environmental Education as environmental curriculum resource for tertiary institutions in Nigeria."
+    },
+    {
+      "avatar": "",
+      "title": "Played supportive role in the establishment of the Nigerian Environmental Study Action Team (NEST)."
+    },
+    {
+      "avatar": "",
+      "title": "Established the Niger-Delta Conservation and Sustainable Development (NDCSD) Project to instigate a paradigm shift from oil and gas dependence to realizing the trade value of biodiversity (2002) among others."
+    }
+  ],
+  "trustees": [
+    {
+      "avatar": "/assets/images/trustees/izoma_philip.svg",
+      "title": "Izoma Philip Asiodu CFR, CON",
+      "position": "President, BOT"
+    },
+    {
+      "avatar": "/assets/images/trustees/akintola_williams.svg",
+      "title": "Mr. Akintola Williams CFR, CBE",
+      "position": "Member, BOT"
+    },
+    {
+      "avatar": "/assets/images/trustees/leventis.svg",
+      "title": "Mr. A.P. Leventis CBE, OFR",
+      "position": "Member, BOT"
+    },
+    {
+      "avatar": "/assets/images/trustees/ahmed_joda.svg",
+      "title": "Alhaji Ahmed Joda CFR",
+      "position": "Member, BOT"
+    }
+  ],
+  "executives": [
+    {
+      "avatar": "/assets/images/trustees/ede_dafinone.svg",
+      "title": "Chief Ede Dafinone",
+      "position": "Chairman, National Executive Council"
+    },
+    {
+      "avatar": "/assets/images/trustees/cordelia_agboti.svg",
+      "title": "Chief (Mrs) Cordelia C. Agboti (JP)",
+      "position": "Chairperson, Human Resources Committee"
+    },
+    {
+      "avatar": "/assets/images/trustees/onari_duke.svg",
+      "title": "Mrs Onari Duke",
+      "position": "Chairperson, Finance Commitee"
+    },
+    {
+      "avatar": "/assets/images/trustees/marie_fatayi.svg",
+      "title": "Dame Marie Fatayi-Williams",
+      "position": "Chairperson, Business Development & Communications Committee"
+    },
+    {
+      "avatar": "/assets/images/trustees/prince_adegoke.svg",
+      "title": "Prince Adegoke Ademiluyi",
+      "position": "Chairman, Conservation & Environmental Services Committee"
+    },
+    {
+      "avatar": "/assets/images/trustees/aminu_kano.svg",
+      "title": "Dr. Muhtari Aminu-Kano",
+      "position": "Director General"
+    },
+    {
+      "avatar": "/assets/images/trustees/arc_ayoola.svg",
+      "title": "Arc Ayoola Onajide",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/arc_kitoye.svg",
+      "title": "Arc Kitoye Ibare-Akisan",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/arc_kitoye_female.svg",
+      "title": "Arc Kitoye Ibare-Akisan",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/ade_alakija.svg",
+      "title": "Dr Ade Alakija",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/admiral_okoja.svg",
+      "title": "Admiral AOS Okoja (Rtd.)",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/justice_adebiyi.svg",
+      "title": "Justice (Mrs) R.I.B. Adebiyi",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/desmond_majekodunmi.svg",
+      "title": "Mr Desmond Majekodunmi",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/edo_ukpong.svg",
+      "title": "Mr Edo Ukpong",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/esimaje_brikinn.svg",
+      "title": "Mr. Esimaje Brikinn",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/adetoun_mohammed.svg",
+      "title": "Mrs. Adetoun Mohammed",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/ajoke_murtala.svg",
+      "title": "Mrs. Ajoke Murtala-Muhammed",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/john_godwin.svg",
+      "title": "Prof. John Godwin, OFR, OBE",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/akin_odunsi.svg",
+      "title": "Senator Chief Akin Odunsi",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/adekoyejo_edu.svg",
+      "title": "Mr Adekoyejo Edu",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/florence_oni.svg",
+      "title": "Mrs Florence Adanmma-Oni",
+      "position": ""
+    },
+    {
+      "avatar": "/assets/images/trustees/dimeji_salaudeen.svg",
+      "title": "Mr Dimeji Salaudeen",
+      "position": ""
+    }
+  ]
 }
