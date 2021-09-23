@@ -15,6 +15,13 @@ const ForestBg = styled.div`
   background-attachment: fixed;
 `;
 
+const PrivacyBg = styled.div`
+  background-image: url(assets/images/banner/ants.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: right 50px;
+`;
+
 const Event = styled.div`
   background-image: url(assets/images/nature/forest-about.png);
   height: 300px;
@@ -58,4 +65,4 @@ const Slider = styled.div`
   }
 `;
 
-export { ForestBanner, ForestBg, Event, MarineBg, Slider };
+export { ForestBanner, ForestBg, Event, MarineBg, PrivacyBg, Slider };

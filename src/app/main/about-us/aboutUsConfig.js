@@ -8,6 +8,11 @@ export const AboutUsConfig = {
       component: React.lazy(() => import('.')),
     },
     {
+      path: '/ncf-in-brief',
+      exact: true,
+      component: React.lazy(() => import('.')),
+    },
+    {
       path: '/vision-and-mission',
       exact: true,
       component: React.lazy(() => import('./VisionAndMission')),

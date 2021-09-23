@@ -1,8 +1,7 @@
 import React from 'react';
 import EnvironSlider from './banners/EnvironSlider';
-import { ImLocation } from 'react-icons/im';
 import { SocialTabs } from '@nfc';
-import { Slider } from './styles';
+import { Slider, PrivacyBg } from './styles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/swiper.min.css';
@@ -15,120 +14,120 @@ import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination]);
 
+const bullet = '/assets/images/icons/bullet.svg';
+
 function PolicyAndAdvocacy() {
   return (
     <div>
       <EnvironSlider />
 
+      <PrivacyBg className='bg-white pt-32 pb-16'>
+        <div className='max-w-7xl mx-auto md:px-0 px-8'>
+          <div className='mb-4'>
+            <h1 className='font-black text-2xl tracking-tight text-green uppercase'>
+              Policy & advocacy
+            </h1>
+          </div>
+
+          <div className='grid md:grid-cols-12 grid-cols-1 md:gap-8 items-start'>
+            <div className='md:col-span-8 col-span-12 mt-6'>
+              <p className='text-base'>
+                Our approach is to work with policy makers at Global, National
+                and State levels with a view to influencing policies that will
+                protect the Nigerian environment and biodiversity. We are
+                involved in global consultations at the United Nations Framework
+                Convention on Climate Change (UNFCC) post-2020 global
+                biodiversity framework which is touted to be the most important
+                document that will put nature on the path to recovery from 2020.
+              </p>
+              <p className='text-base'>
+                We support the Federal Government to integrate international
+                environmental protocols into national policies. We also work to
+                ensure environmental sustainability and development issues are
+                effectively positioned within the context of National
+                Development Strategies.
+              </p>
+              <p className='text-base'>
+                We are currently working with Federal and 3 States Governments
+                to develop Forest Legislation which will take a critical look at
+                the following:
+              </p>
+
+              <ul className='w-full rounded-lg -ml-3 my-6 text-gray-800'>
+                <li className='flex items-start p-1 pl-3'>
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
+                  <span>
+                    Effectiveness of laws and policies for the protection and
+                    conservation of forests.
+                  </span>
+                </li>
+                <li className='flex items-start p-1 pl-3'>
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
+                  <span>
+                    Adoption and enforcement of Federal laws on forest
+                    protection at State levels.
+                  </span>
+                </li>
+                <li className='flex items-start p-1 pl-3'>
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
+                  <span>
+                    Review of available legal frameworks to address potential
+                    impacts pf deforestation at both levels of government.
+                  </span>
+                </li>
+              </ul>
+
+              <p className='text-base text-green font-bold'>
+                Platforms we employ in driving our policy & advocacy initiatives
+                include:
+              </p>
+            </div>
+            <div className='md:col-span-4 col-span-12'></div>
+          </div>
+        </div>
+      </PrivacyBg>
+
       <div className='w-full bg-white'>
         <div className='max-w-7xl mx-auto py-12 md:px-0 px-8'>
-          <div className='text-right mb-6'>
-            <h1 className='font-bold text-2xl tracking-tight text-right text-green uppercase'>
-              STRENGTHENING NCF/CAPACITY BUILDING
+          <div className='mb-6'>
+            <h1 className='font-bold text-2xl tracking-tight text-green uppercase'>
+              Abuja policy office
             </h1>
             <hr className='h-1 my-4 bg-transparent border-0 border-t border-solid border-gray-300' />
           </div>
 
           <div className='grid md:grid-cols-12 grid-cols-1 md:gap-8 items-start md:mb-0 mb-8'>
-            <div className='md:col-span-4 col-span-12'>
-              <img src='/assets/images/groups/capacity-building.png' alt='' />
-            </div>
             <div className='mt-6 md:col-span-8 col-span-12'>
               <p className='text-base mb-4'>
-                Our effort at moving the needle towards achieving our vision,
-                mission and strategic plans is hinged on building capacities.
-                Firstly, within the organisation as well as with key
-                stakeholders.
+                Established with the mandate of lobbying government agencies to
+                enact laws and policies that will promote nature conservation in
+                Nigeria and protect the environment, the office work directly
+                with the Federal Government and the National Assembly to
+                influence National Policy. To achieve this, we collaborate with
+                international organisations, development agencies and other
+                non-governmental organisations.
               </p>
-
-              <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
-                <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
-                  <span>
-                    Our people are carefully selected to ensure we have
-                    competent, self-motivated and passionate work force.
-                  </span>
-                </li>
-                <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
-                  <span>
-                    Their individual capacities are enhanced through trainings,
-                    seminars and workshops.
-                  </span>
-                </li>
-                <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
-                  <span>
-                    The Foundation’s partnership with global conservation
-                    organisations such as IUCN, WWF, RSPB and BirdLife
-                    International provides access to technical expertise, global
-                    best practices, international donor agencies and wealth of
-                    experience of these organisations.
-                  </span>
-                </li>
-                <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
-                  <span>
-                    We engage other BirdLife International partners on peer
-                    review to learn from each other’s experience in the
-                    conservation field
-                  </span>
-                </li>
-                <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
-                  <span>
-                    Multinational organisations such as ECOWAS, European Union,
-                    DFID, United States Fish and Wildlife Service, UNDP and a
-                    host of others facilitate linkages to governments and
-                    support us in catalyzing the development of guidelines and
-                    standards to advance social innovations and integrate
-                    research in their process.
-                  </span>
-                </li>
-                <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
-                  <span>
-                    Capacity building is also directed at developing competence
-                    of our stakeholders who are integral parts of delivering
-                    conservation value. These include Local Conservation Groups,
-                    Site Support Groups, coordinators and members of school
-                    conservation clubs. With the above in mind, the Foundation
-                    aspires to double its current revenue by 2025.
-                  </span>
-                </li>
-              </ul>
+              <p className='text-base'>
+                The Abuja Office equally drive policy advocacy with Northern
+                State Governments in order to ensure that issues of environment
+                are mainstreamed into administration. Consequently, we supported
+                the Kaduna State Government in the development of policies to
+                protect the environment of Kaduna State from degradation and
+                other harmful impacts.
+              </p>
+            </div>
+            <div className='md:col-span-4 col-span-12'>
+              <img src='/assets/images/groups/abuja-office.png' alt='' />
             </div>
           </div>
         </div>
       </div>
 
-      <div className='bg-white py-32'>
+      <div className='bg-white py-8'>
         <div className='max-w-7xl mx-auto md:px-0 px-8'>
           <div className='mb-8'>
-            <h1 className='font-black text-2xl tracking-tight text-green uppercase mb-12'>
-              Policy & advocacy
-            </h1>
-
-            <h1 className='font-bold text-xl text-gray-800 mb-4'>
-              Corporate organisations
+            <h1 className='font-bold text-2xl text-right tracking-tight text-green uppercase mb-4'>
+              Chief S.L. Edu Memorial Lecture
             </h1>
             <hr className='border-b border-gray-200 mx-auto border-0' />
           </div>
@@ -147,19 +146,141 @@ function PolicyAndAdvocacy() {
               className='mySwiper'
             >
               <SwiperSlide>
-                <img src='/assets/images/animals/hippopotamus.png' alt='' />
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img
+                    src='/assets/images/groups/memorial-lecture.png'
+                    alt=''
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src='/assets/images/animals/hippopotamus.png' alt='' />
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img
+                    src='/assets/images/groups/memorial-lecture.png'
+                    alt=''
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src='/assets/images/animals/hippopotamus.png' alt='' />
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img
+                    src='/assets/images/groups/memorial-lecture.png'
+                    alt=''
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img src='/assets/images/animals/hippopotamus.png' alt='' />
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img
+                    src='/assets/images/groups/memorial-lecture.png'
+                    alt=''
+                  />
+                </div>
               </SwiperSlide>
             </Swiper>
           </Slider>
+
+          <div className='mt-6'>
+            <p className='text-base text-justify'>
+              The Chief S.L. Edu Memorial Lecture is an annual event organised
+              in collaboration with the S.L. Edu Family and through the support
+              of Chevron Nigeria Limited. It is aimed at bringing environmental
+              issues to the fore while articulating solutions through renowned
+              speakers. The event is a public engagement tool and the audience
+              typically comprise government representatives, members of the
+              diplomatic corps, traditional rulers, policy makers,
+              representatives of major religious faiths, researchers,
+              environmental stakeholders, local and international press among
+              others.
+              <br /> The Annual Chief SL Edu Research Grant instituted by
+              Chevron Nigeria Limited is awarded to two (2) successful PhD
+              students in the field of environmental sciences at the event.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-white py-8'>
+        <div className='max-w-7xl mx-auto md:px-0 px-8'>
+          <div className='mb-8'>
+            <h1 className='font-bold text-2xl tracking-tight text-green uppercase mb-4'>
+              Walk for Nature
+            </h1>
+            <hr className='border-b border-gray-200 mx-auto border-0' />
+          </div>
+
+          <Slider>
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={15}
+              slidesPerGroup={2}
+              loop={true}
+              loopFillGroupWithBlank={true}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              className='mySwiper'
+            >
+              <SwiperSlide>
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img src='/assets/images/groups/walk-nature.png' alt='' />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img src='/assets/images/groups/walk-nature.png' alt='' />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img src='/assets/images/groups/walk-nature.png' alt='' />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='flex flex-col items-start'>
+                  <button className='py-1.5 px-3 rounded-md bg-green-600 text-white font-bold focus:outline-none'>
+                    2018
+                  </button>
+                  <img src='/assets/images/groups/walk-nature.png' alt='' />
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </Slider>
+
+          <div className='mt-6'>
+            <p className='text-base text-justify'>
+              This annual rally is organised in collaboration with the Lagos
+              State Government and it is aimed at sensitising the members of the
+              public to pressing environmental problems confronting daily
+              living. it equally serve to focus government’s attention to what
+              should be done to address these environmental issues. The event is
+              sponsored by corporate organisations who equally partake in the
+              procession with their employees and utilised as a corporate social
+              responsibility towards the environment.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -186,30 +307,21 @@ function PolicyAndAdvocacy() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Our people are carefully selected to ensure we have
                     competent, self-motivated and passionate work force.
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Their individual capacities are enhanced through trainings,
                     seminars and workshops.
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     The Foundation’s partnership with global conservation
                     organisations such as IUCN, WWF, RSPB and BirdLife
@@ -219,10 +331,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     We engage other BirdLife International partners on peer
                     review to learn from each other’s experience in the
@@ -230,10 +339,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Multinational organisations such as ECOWAS, European Union,
                     DFID, United States Fish and Wildlife Service, UNDP and a
@@ -244,10 +350,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Capacity building is also directed at developing competence
                     of our stakeholders who are integral parts of delivering
@@ -286,10 +389,7 @@ function PolicyAndAdvocacy() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     In 2015, the Catholic Church came up with Laudato si', the
                     second encyclical of Pope Francis. The encyclical has the
@@ -300,10 +400,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Many teachings abound in Islam on environmental stewardship.
                     Principles such as Tauhid (Unity); Fitra (Creation); Mizan
@@ -316,10 +413,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     NCF works with diverse communities of faith groups such as
                     Catholic Church, Anglican Communion, NASFAT, Da’wah
@@ -330,10 +424,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Currently, we are mobilising a coalition of these faith
                     groups under the umbrella of Nigerian Interfaith Initiative
@@ -368,10 +459,7 @@ function PolicyAndAdvocacy() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     NCF has an agelong culture of partnering with Local
                     Conservation Groups in carrying out projects, drawing from
@@ -382,10 +470,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Successes recorded in many of the tree planting projects is
                     because the seedlings are nurtured to maturity by Local
@@ -396,10 +481,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     We establish Site Support Groups and are resourced to
                     sustain the achievements recorded at project sites. This has
@@ -410,10 +492,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     In the same vein Ebrobaken Eco Guards, a Local Conservation
                     Group established in 2018 have been in the forefront of
@@ -422,10 +501,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Recently, a Local Conservation Group, the Gashaka
                     Biodiversity Conservation Initiative, was established as an
@@ -463,10 +539,7 @@ function PolicyAndAdvocacy() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Many corporate organisations in Nigeria have demonstrated
                     commitment towards conservation by partnering with us for
@@ -478,10 +551,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Other organisations have committed to projects like waste
                     management, environmental education, policy advocacy,
@@ -489,10 +559,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     A landmark outcome of our engagement with corporate
                     organisations was the Nigerian Business for Nature workshop
@@ -503,10 +570,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Finally, individuals who are passionate about the
                     environment are our largest community through membership
@@ -542,20 +606,14 @@ function PolicyAndAdvocacy() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     We have worked with youth groups across communities,
                     religious and academic institutions.
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     For many decades, the youths have remained an integral part
                     of NCF projects, activities, events, awareness campaign,
@@ -566,10 +624,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Our Environmental education activities provide platforms
                     such as school conservation clubs in secondary schools and
@@ -578,10 +633,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     The youth have taken the lead in the yearly climate strike –
                     a protest rally to demand action be taken to address climate
@@ -589,10 +641,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     With funding from the country’s Nationally Determined
                     Contribution and support from the governments of Germany and
@@ -602,10 +651,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     In 2020, 10 of the youth we nominated were awarded the Top
                     100 Conservation Leaders in Africa
@@ -636,10 +682,7 @@ function PolicyAndAdvocacy() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     NCF is an associate of World Wildlife Fund for Nature (WWF),
                     a partner to BirdLife International and a member of the
@@ -649,10 +692,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Our strategic partners offer opportunity to operate across
                     the continent and globally through a network of
@@ -660,10 +700,7 @@ function PolicyAndAdvocacy() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Crucially, the strategic partners provide institutional
                     support to the Foundation and collaborate on projects.

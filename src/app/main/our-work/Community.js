@@ -1,6 +1,5 @@
 import React from 'react';
 import EnvironSlider from './banners/EnvironSlider';
-import { ImLocation } from 'react-icons/im';
 import { SocialTabs } from '@nfc';
 import { Slider } from './styles';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,6 +13,8 @@ import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination]);
+
+const bullet = '/assets/images/icons/bullet.svg';
 
 function Community() {
   return (
@@ -86,30 +87,21 @@ function Community() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Our people are carefully selected to ensure we have
                     competent, self-motivated and passionate work force.
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Their individual capacities are enhanced through trainings,
                     seminars and workshops.
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     The Foundation’s partnership with global conservation
                     organisations such as IUCN, WWF, RSPB and BirdLife
@@ -119,10 +111,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     We engage other BirdLife International partners on peer
                     review to learn from each other’s experience in the
@@ -130,10 +119,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Multinational organisations such as ECOWAS, European Union,
                     DFID, United States Fish and Wildlife Service, UNDP and a
@@ -144,10 +130,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Capacity building is also directed at developing competence
                     of our stakeholders who are integral parts of delivering
@@ -186,10 +169,7 @@ function Community() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     In 2015, the Catholic Church came up with Laudato si', the
                     second encyclical of Pope Francis. The encyclical has the
@@ -200,10 +180,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Many teachings abound in Islam on environmental stewardship.
                     Principles such as Tauhid (Unity); Fitra (Creation); Mizan
@@ -216,10 +193,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     NCF works with diverse communities of faith groups such as
                     Catholic Church, Anglican Communion, NASFAT, Da’wah
@@ -230,10 +204,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Currently, we are mobilising a coalition of these faith
                     groups under the umbrella of Nigerian Interfaith Initiative
@@ -268,10 +239,7 @@ function Community() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     NCF has an agelong culture of partnering with Local
                     Conservation Groups in carrying out projects, drawing from
@@ -282,10 +250,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Successes recorded in many of the tree planting projects is
                     because the seedlings are nurtured to maturity by Local
@@ -296,10 +261,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     We establish Site Support Groups and are resourced to
                     sustain the achievements recorded at project sites. This has
@@ -310,10 +272,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     In the same vein Ebrobaken Eco Guards, a Local Conservation
                     Group established in 2018 have been in the forefront of
@@ -322,10 +281,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Recently, a Local Conservation Group, the Gashaka
                     Biodiversity Conservation Initiative, was established as an
@@ -363,10 +319,7 @@ function Community() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Many corporate organisations in Nigeria have demonstrated
                     commitment towards conservation by partnering with us for
@@ -378,10 +331,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Other organisations have committed to projects like waste
                     management, environmental education, policy advocacy,
@@ -389,10 +339,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     A landmark outcome of our engagement with corporate
                     organisations was the Nigerian Business for Nature workshop
@@ -403,10 +350,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Finally, individuals who are passionate about the
                     environment are our largest community through membership
@@ -442,20 +386,14 @@ function Community() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     We have worked with youth groups across communities,
                     religious and academic institutions.
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     For many decades, the youths have remained an integral part
                     of NCF projects, activities, events, awareness campaign,
@@ -466,10 +404,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Our Environmental education activities provide platforms
                     such as school conservation clubs in secondary schools and
@@ -478,10 +413,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     The youth have taken the lead in the yearly climate strike –
                     a protest rally to demand action be taken to address climate
@@ -489,10 +421,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     With funding from the country’s Nationally Determined
                     Contribution and support from the governments of Germany and
@@ -502,10 +431,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     In 2020, 10 of the youth we nominated were awarded the Top
                     100 Conservation Leaders in Africa
@@ -536,10 +462,7 @@ function Community() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     NCF is an associate of World Wildlife Fund for Nature (WWF),
                     a partner to BirdLife International and a member of the
@@ -549,10 +472,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Our strategic partners offer opportunity to operate across
                     the continent and globally through a network of
@@ -560,10 +480,7 @@ function Community() {
                   </span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>
                     Crucially, the strategic partners provide institutional
                     support to the Foundation and collaborate on projects.

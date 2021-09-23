@@ -1,7 +1,8 @@
 import React from 'react';
 import EnvironSlider from './banners/EnvironSlider';
-import { ImLocation } from 'react-icons/im';
 import { SocialTabs } from '@nfc';
+
+const bullet = '/assets/images/icons/bullet.svg';
 
 function EnvironmentEducation() {
   return (
@@ -221,31 +222,19 @@ function EnvironmentEducation() {
 
               <ul className='w-full rounded-lg -ml-3 mb-4 text-gray-800'>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>Word Wetland Day</span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>World Migratory Bird Day</span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>Word Environment Day</span>
                 </li>
                 <li className='flex items-start p-1 pl-3'>
-                  <ImLocation
-                    size={18}
-                    className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-                  />
+                  <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
                   <span>World Habitat Day</span>
                 </li>
               </ul>

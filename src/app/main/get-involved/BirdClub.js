@@ -2,7 +2,6 @@ import React from 'react';
 import HomeSlider from './components/slider/Slider';
 import { SocialTabs } from '@nfc';
 import { HiOutlineChevronDown } from 'react-icons/hi';
-import { ImLocation } from 'react-icons/im';
 import data from './data/mock.json';
 import { BirdBg, MemberBanner, FutureBanner } from './styles';
 
@@ -109,9 +108,10 @@ function BirdClub() {
 
             <ul className='w-full rounded-lg mt-2 mb-3 -ml-3 text-gray-800'>
               <li className='flex items-start p-1 pl-3'>
-                <ImLocation
-                  size={20}
-                  className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
+                <img
+                  src='/assets/images/icons/bullet.svg'
+                  className='mr-2 flex-none mt-0.5'
+                  alt=''
                 />
                 <span>
                   Preserving the full range of Nigeria’s biodiversity which
@@ -119,9 +119,10 @@ function BirdClub() {
                 </span>
               </li>
               <li className='flex items-start p-1 pl-3'>
-                <ImLocation
-                  size={20}
-                  className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
+                <img
+                  src='/assets/images/icons/bullet.svg'
+                  className='mr-2 flex-none mt-0.5'
+                  alt=''
                 />
                 <span>
                   Promoting sustainable use of natural resources for the benefit
@@ -129,9 +130,10 @@ function BirdClub() {
                 </span>
               </li>
               <li className='flex items-start p-1 pl-3'>
-                <ImLocation
-                  size={20}
-                  className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
+                <img
+                  src='/assets/images/icons/bullet.svg'
+                  className='mr-2 flex-none mt-0.5'
+                  alt=''
                 />
                 <span>
                   Advocating actions that minimize pollution and wasteful

@@ -1,8 +1,9 @@
 import React from 'react';
-import { ImLocation } from 'react-icons/im';
 import HomeSlider from './components/slider/Slider';
 import { SocialTabs } from '@nfc';
 import { ContactBg } from './styles';
+
+const bullet = '/assets/images/icons/bullet.svg';
 
 function Contact() {
   return (
@@ -31,60 +32,42 @@ function Contact() {
 
           <ul className='w-full rounded-lg -ml-3 text-gray-800'>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 For enquiries and booking of LCC facilities call 09065460479 or
                 email <em className='text-green'>lcc@ncfnigeria.org</em>
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 For Membership registration and enquiries: 08069813495 or email
                 <em className='text-green'>membership@ncfnigeria.org</em>
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 For Educational programmes, School visits: 09027509511 or email
                 <em className='text-green'>education@ncfnigeria.org</em>
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 For job opportunities/vacancies email:
                 <em className='text-green'>recruitment@ncfnigeria.org</em>
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 For sponsorship and partnership, enquiries call: 09092236281 or
                 email <em className='text-green'>fundraising@ncfnigeria.org</em>
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 For subscription to our magazine, Advert enquiries and
                 e-bulletin call NCF Media Unit: 0903 489 5750 or
@@ -92,20 +75,14 @@ function Contact() {
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 E-mail: <em className='text-green'>info@ncfnigeria.org</em> |{' '}
                 <em className='text-green'>media@ncfnigeria.org</em>
               </span>
             </li>
             <li className='flex items-start p-1 pl-3'>
-              <ImLocation
-                size={18}
-                className='text-green mr-2 mt-0.5 flex-none transform -rotate-90'
-              />
+              <img src={bullet} className='mr-2 flex-none mt-0.5' alt='' />
               <span>
                 Website: <em className='text-green'>www.ncfnigeria.org</em>
               </span>

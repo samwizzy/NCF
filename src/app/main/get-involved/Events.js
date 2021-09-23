@@ -1,5 +1,4 @@
 import React from 'react';
-import { ImLocation } from 'react-icons/im';
 import { SocialTabs } from '@nfc';
 import data from './data/mock.json';
 import HomeSlider from './components/slider/Slider';
@@ -147,10 +146,14 @@ function Events() {
                 are:
               </p>
 
-              <ul className='w-full rounded-lg mt-2 mb-3 text-gray-800'>
+              <ul className='w-full rounded-lg mt-2 mb-6 -ml-3 text-gray-800'>
                 {data.activities.map((activity, i) => (
                   <li className='flex items-start p-1 pl-3'>
-                    <ImLocation className='text-green mr-2 transform -rotate-90 flex-none mt-1 h-full' />
+                    <img
+                      src='/assets/images/icons/bullet.svg'
+                      className='mr-2 flex-none mt-0.5'
+                      alt=''
+                    />
                     <span>{activity.name}</span>
                   </li>
                 ))}

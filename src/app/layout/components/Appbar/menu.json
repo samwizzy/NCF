@@ -2,7 +2,7 @@
   { "name": "HOME", "href": "/", "current": true },
   {
     "name": "ABOUT US",
-    "href": "/about-us",
+    "href": "#",
     "current": false,
     "sublist": [
       {
@@ -26,17 +26,17 @@
   },
   {
     "name": "OUR WORK",
-    "href": "/our-work",
+    "href": "#",
     "current": false,
     "sublist": [
       {
         "name": "Habitat",
-        "href": "/our-work",
+        "href": "#",
         "current": false,
         "sublist": [
           {
             "name": "Forest-Green Recovery Nigeria",
-            "href": "/",
+            "href": "/forest-recovery",
             "current": false
           },
           { "name": "Wetland & Freshwater", "href": "/", "current": false },
@@ -64,10 +64,10 @@
   },
   {
     "name": "LIBRARY",
-    "href": "/library",
+    "href": "#",
     "current": false,
     "sublist": [
-      { "name": "E-Library", "href": "/e-library", "current": false },
+      { "name": "E-Library", "href": "/library", "current": false },
       { "name": "News & Updates", "href": "/news-updates", "current": false },
       {
         "name": "Other Resources",
@@ -78,7 +78,7 @@
   },
   {
     "name": "GET INVOLVED",
-    "href": "/get-involved",
+    "href": "#",
     "current": false,
     "sublist": [
       { "name": "Membership", "href": "/membership", "current": false },
@@ -87,6 +87,6 @@
       { "name": "Volunteer", "href": "/volunteer", "current": false }
     ]
   },
-  { "name": "SUPPORT NATURE", "href": "/", "current": false },
-  { "name": "BLOG", "href": "/", "current": false }
+  { "name": "SUPPORT NATURE", "href": "/support-nature", "current": false },
+  { "name": "BLOG", "href": "/blog", "current": false }
 ]

@@ -1,30 +1,14 @@
-import React from "react"
-import { Router, /*Route*/ } from "react-router-dom"
-import {renderRoutes} from "react-router-config"
-import history from "./history"
-// import AppLayout from "./layout"
-import routes from "./config/routeConfig"
-
-// const Home = React.lazy(() => import("./main/home"))
-// const AboutUs = React.lazy(() => import("./main/about-us"))
-// const OurWork = React.lazy(() => import("./main/our-work"))
-// const Shop = React.lazy(() => import("./main/shop"))
+import React from 'react';
+import { Router } from 'react-router-dom';
+import { renderRoutes } from 'react-router-config';
+import history from './history';
+import routes from './config/routeConfig';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <React.Suspense fallback={null}>
-        <Router history={history}>
-          {/* <AppLayout>
-            <Fragment> */}
-              {renderRoutes(routes)}
-              {/* <Route exact path="/" component={Home} />
-              <Route path="/about-us" component={AboutUs} />
-              <Route path="/our-work" component={OurWork} />
-              <Route path="/shop" component={Shop} /> */}
-            {/* </Fragment>
-          </AppLayout> */}
-        </Router>
+        <Router history={history}>{renderRoutes(routes)}</Router>
       </React.Suspense>
     </div>
   );

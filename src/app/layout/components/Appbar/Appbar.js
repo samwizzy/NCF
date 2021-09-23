@@ -68,7 +68,7 @@ function Appbar() {
                                 >
                                   <button className='w-full text-left flex items-center outline-none focus:outline-none'>
                                     <span className='pr-1 flex-1'>
-                                      <a href={list.href}>{list.name}</a>
+                                      <Link to={list.href}>{list.name}</Link>
                                     </span>
                                     <span className='mr-auto'>
                                       <HiOutlineChevronDown className='h-4 w-4 transition duration-150 ease-in-out' />
@@ -84,9 +84,9 @@ function Appbar() {
                                           >
                                             <button className='w-full text-left flex items-center outline-none focus:outline-none'>
                                               <span className='pr-1 flex-1'>
-                                                <a href={next.href}>
+                                                <Link to={next.href}>
                                                   {next.name}
-                                                </a>
+                                                </Link>
                                               </span>
                                               <span className='mr-auto'>
                                                 <HiOutlineChevronDown className='h-4 w-4 transition duration-150 ease-in-out' />
@@ -110,7 +110,9 @@ function Appbar() {
                                             key={next.name}
                                             className='px-3 py-1 hover:bg-gray-100'
                                           >
-                                            <a href={next.href}>{next.name}</a>
+                                            <Link to={next.href}>
+                                              {next.name}
+                                            </Link>
                                           </li>
                                         )
                                       )}
@@ -122,13 +124,9 @@ function Appbar() {
                                   key={list.name}
                                   className='rounded-sm px-3 py-1 hover:bg-gray-100'
                                 >
-                                  <button
-                                    component={Link}
-                                    to='/about-us'
-                                    className='w-full text-left flex items-center outline-none focus:outline-none'
-                                  >
+                                  <button className='w-full text-left flex items-center outline-none focus:outline-none'>
                                     <span className='pr-1 flex-1'>
-                                      <a href={list.href}>{list.name}</a>
+                                      <Link to={list.href}>{list.name}</Link>
                                     </span>
                                   </button>
                                 </li>
@@ -156,11 +154,7 @@ function Appbar() {
                 </div>
               </div>
               <div className='absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'>
-                <button
-                  component={Link}
-                  to='/about-us'
-                  className='rounded-full bg-white py-2 px-4 flex items-center outline-none focus:outline-none'
-                >
+                <button className='rounded-full bg-white py-2 px-4 flex items-center outline-none focus:outline-none'>
                   <span className='flex-1 text-xs font-bold'>LEKKI CENTER</span>
                 </button>
 
@@ -243,9 +237,9 @@ function Appbar() {
           <Disclosure.Panel className='sm:hidden'>
             <div className='px-2 pt-2 pb-3 space-y-1'>
               {navigation.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className={classNames(
                     item.current
                       ? 'bg-gray-900 text-white'
@@ -255,7 +249,7 @@ function Appbar() {
                   aria-current={item.current ? 'page' : undefined}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>

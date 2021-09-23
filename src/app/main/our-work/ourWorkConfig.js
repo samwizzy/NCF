@@ -3,7 +3,7 @@ import React from 'react';
 export const OurWorkConfig = {
   routes: [
     {
-      path: '/our-work',
+      path: '/forest-recovery',
       exact: true,
       component: React.lazy(() => import('.')),
     },

@@ -86,7 +86,7 @@ function Shop() {
         </div>
       </div>
 
-      <div className='w-full md:px-0'>
+      <div className='w-full md:px-0 relative z-10'>
         <div className='grid md:grid-cols-12 md:gap-x-0 gap-y-2'>
           <aside className='md:col-span-2 col-span-12 min-h-screen py-4 border-0 border-r border-solid border-gray-200'>
             <ShopSideMenu />

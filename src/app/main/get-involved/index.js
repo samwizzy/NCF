@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link, useRouteMatch } from 'react-router-dom';
 import HomeSlider from './components/slider/Slider';
 import { HiCheck } from 'react-icons/hi';
 import { SocialTabs } from '@nfc';
 import data from './data/mock.json';
 
 function GetInvolved(props) {
+  const { path } = useRouteMatch();
+
   return (
     <div>
       <HomeSlider />
@@ -62,42 +65,41 @@ function GetInvolved(props) {
         </div>
         <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-16 gap-y-8'>
           {[0, 1, 2].map((i) => (
-            <div
-              key={i}
-              className='max-w-md rounded overflow-hidden h-full shadow-lg'
-            >
-              <div className=''>
-                <div className='mb-2 border-b px-4 py-2'>
-                  <h2 className='font-bold uppercase'>
-                    Platinum Corporate Members
-                  </h2>
-                  <span className='text-sm text-gray-600'>
-                    Registration and Annual Subscription{' '}
-                  </span>
-                </div>
-                <div className='px-4 py-2'>
-                  <span className='text-sm mb-2'>Starts at:</span>
-                  <h3 className='mb-4'>
-                    <span className='text-green text-lg font-bold'>
-                      N500,000
+            <Link key={i} to={`${path}/corporate`}>
+              <div className='max-w-md rounded overflow-hidden h-full shadow-lg'>
+                <div className=''>
+                  <div className='mb-2 border-b px-4 py-2'>
+                    <h2 className='font-bold uppercase'>
+                      Platinum Corporate Members
+                    </h2>
+                    <span className='text-sm text-gray-600'>
+                      Registration and Annual Subscription{' '}
                     </span>
-                    <span className='text-sm'>/Year</span>
-                  </h3>
+                  </div>
+                  <div className='px-4 py-2'>
+                    <span className='text-sm mb-2'>Starts at:</span>
+                    <h3 className='mb-4'>
+                      <span className='text-green text-lg font-bold'>
+                        N500,000
+                      </span>
+                      <span className='text-sm'>/Year</span>
+                    </h3>
 
-                  <ul class='w-full rounded-lg mt-2 mb-3 text-gray-800'>
-                    {data.memberships.map((project, i) => (
-                      <li key={i} className='flex items-start p-1 pl-0'>
-                        <HiCheck
-                          size={16}
-                          className='text-green mr-2 mt-0.5 flex-none'
-                        />
-                        <span className='text-sm'>{project.title}</span>
-                      </li>
-                    ))}
-                  </ul>
+                    <ul class='w-full rounded-lg mt-2 mb-3 text-gray-800'>
+                      {data.memberships.map((project, i) => (
+                        <li key={i} className='flex items-start p-1 pl-0'>
+                          <HiCheck
+                            size={16}
+                            className='text-green mr-2 mt-0.5 flex-none'
+                          />
+                          <span className='text-sm'>{project.title}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
@@ -110,45 +112,47 @@ function GetInvolved(props) {
         </div>
         <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-16 gap-y-8'>
           {[0, 1, 2].map((i) => (
-            <div
-              key={i}
-              className='max-w-md rounded overflow-hidden h-full shadow-lg'
-            >
-              <div className=''>
-                <div className='mb-2 border-b px-4 py-2'>
-                  <h2 className='font-bold uppercase mb-1'>LIFE FELLOWS</h2>
-                  <p className='text-xs text-gray-600 mb-1'>
-                    They are men and women from all walks of life who volunteer
-                    their time and service to work with NCF towards the
-                    attainment of NCF vision.
-                  </p>
-                  <span className='text-sm text-gray-900 font-medium'>
-                    Registration and Subscription
-                  </span>
-                </div>
-                <div className='px-4 py-2'>
-                  <span className='text-sm mb-2'>Starts at:</span>
-                  <h3 className='mb-4'>
-                    <span className='text-green text-lg font-bold'>
-                      N500,000
+            <Link key={i} to={`${path}/individual`}>
+              <div
+                className='max-w-md rounded overflow-hidden h-full shadow-lg'
+                component={Link}
+              >
+                <div className=''>
+                  <div className='mb-2 border-b px-4 py-2'>
+                    <h2 className='font-bold uppercase mb-1'>LIFE FELLOWS</h2>
+                    <p className='text-xs text-gray-600 mb-1'>
+                      They are men and women from all walks of life who
+                      volunteer their time and service to work with NCF towards
+                      the attainment of NCF vision.
+                    </p>
+                    <span className='text-sm text-gray-900 font-medium'>
+                      Registration and Subscription
                     </span>
-                    <span className='text-sm'>.00</span>
-                  </h3>
+                  </div>
+                  <div className='px-4 py-2'>
+                    <span className='text-sm mb-2'>Starts at:</span>
+                    <h3 className='mb-4'>
+                      <span className='text-green text-lg font-bold'>
+                        N500,000
+                      </span>
+                      <span className='text-sm'>.00</span>
+                    </h3>
 
-                  <ul class='w-full rounded-lg mt-2 mb-3 text-gray-800'>
-                    {data.individual.map((project, i) => (
-                      <li key={i} className='flex items-start p-1 pl-0'>
-                        <HiCheck
-                          size={16}
-                          className='text-green mr-2 mt-0.5 flex-none'
-                        />
-                        <span className='text-sm'>{project.title}</span>
-                      </li>
-                    ))}
-                  </ul>
+                    <ul class='w-full rounded-lg mt-2 mb-3 text-gray-800'>
+                      {data.individual.map((project, i) => (
+                        <li key={i} className='flex items-start p-1 pl-0'>
+                          <HiCheck
+                            size={16}
+                            className='text-green mr-2 mt-0.5 flex-none'
+                          />
+                          <span className='text-sm'>{project.title}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
